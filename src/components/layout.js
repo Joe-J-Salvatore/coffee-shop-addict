@@ -8,11 +8,19 @@
 import React from "react"
 import PropTypes from "prop-types"
 //import { useStaticQuery, graphql } from "gatsby"
-import "./bootstrap.css"
-import "./layout.css"
+import "../styles/bootstrap.css"
+import "../styles/index.scss"
+import Navbar from "./Globals/Navbar"
+import Footer from "./Globals/Footer"
 
 const Layout = ({ children }) => {
-  return <>{children}</>
+  return (
+    <>
+      <Navbar />
+      {children}
+      <Footer />
+    </>
+  )
 }
 
 Layout.propTypes = {

@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: #222;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", Courier, monospace !important;
+  letter-spacing: 0.25rem;
+}
+
+.cart-icon {
+  cursor: pointer;
+  color: orange;
+  font-size: 2rem;
+}
+
+.default-background,
+.about-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+    rgba(212, 164, 3, 0.5),
+    rgba(255, 198, 9, 0.5)
+  );
+  opacity: 1 !important;
+}
+
+.about-background {
+  min-height: 60vh;
+}
+
+.btn-yellow {
+  color: orange;
+  border-color: orange;
+}
+
+.text-yellow {
+  color: orange;
+}
+.footer {
+  width: 100%;
+  background: rgb(122, 83, 83);
+}
