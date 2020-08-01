@@ -41,9 +41,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="nav-link text-right">
-              <MdShoppingCart className="cart-icon" />
-            </Link>
+            <MdShoppingCart className="cart-icon snipcart-checkout" />
           </li>
         </ul>
       </div>

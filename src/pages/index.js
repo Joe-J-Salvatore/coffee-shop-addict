@@ -4,6 +4,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection"
 import Info from "../components/section"
+import Menu from "../components/menu"
+import Products from "../components/Products"
+import Contact from "../components/Contact"
 
 const IndexPage = props => (
   <Layout>
@@ -14,6 +17,9 @@ const IndexPage = props => (
       className="default-background"
     />
     <Info title="our story" />
+    <Menu />
+    <Products />
+    <Contact />
   </Layout>
 )
 

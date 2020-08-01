@@ -19,6 +19,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-snipcartv3",
+      options: {
+        apiKey: process.env.GATSBY_SNIPCART_APIKEY,
+        autopop: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
