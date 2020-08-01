@@ -24,7 +24,7 @@ const Menu = () => {
             id
             image {
               fixed(width: 50, height: 50) {
-                ...GatsbyContentfulFixed_tracedSVG
+                ...GatsbyContentfulFixed
               }
             }
             category
